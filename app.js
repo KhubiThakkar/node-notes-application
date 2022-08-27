@@ -11,12 +11,12 @@ yargs.command({
     // Using arguments
     builder: {
         title: {
-            describe: 'Note title',
+            describe: 'Note Title',
             demandOption: true, // value is required
             type: 'string'  // input type would be string, even if nothing is provided
         },
         body: {
-            describe: 'Note body',
+            describe: 'Note Body',
             demandOption: true,
             type: 'string'
         }
